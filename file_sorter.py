@@ -57,9 +57,8 @@ class MyHandler(FileSystemEventHandler):
 					new_destination = Misc_location + "/" + file
 					rename(src,new_destination)
 
+
 #Paths to your directories dedicated for specific files
-
-
 Images_location = ""
 Music_location = ""
 Compressed_location = ""
